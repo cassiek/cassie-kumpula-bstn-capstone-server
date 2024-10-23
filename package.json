@@ -2,10 +2,28 @@
   "name": "cassie-kumpula-bstn-capstone-server",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "migrate": "knex migrate:latest",
+    "migrate:down": "knex migrate:down",
+    "migrate:rollback": "knex migrate:rollback",
+    "seed": "knex seed:run",
+    "dbsetup": "knex migrate:latest && knex seed:run"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "knex": "^3.1.0",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+  }
 }
