@@ -135,14 +135,14 @@ exports.seed = async function(knex) {
     {
       id: 19, 
       name: "Wide Leg Joggers",
-      variants: '["black", "graphite", "navy", "grey"]',
+      variants: '["black", "graphite", "navy", "tan"]',
       description: "",
       category: "Pants"
     },
     {
       id: 20, 
       name: "Loafers",
-      variants: '["charcoal", "black", "brown"]',
+      variants: '["charcoal", "black", "dark brown"]',
       description: "",
       category: "Shoes"
     }

@@ -10,7 +10,7 @@ exports.seed = async function(knex) {
       id: 1, 
       warehouse_id: 1,
       name: "Slacks",
-      variant: "",
+      variant: "chacoal",
       status: false,
       quantity: 0
     },
@@ -18,7 +18,7 @@ exports.seed = async function(knex) {
       id: 2, 
       warehouse_id: 2,
       name: "Slacks",
-      variant: "",
+      variant: "khaki",
       status: true,
       quantity: 398
     },
@@ -26,7 +26,7 @@ exports.seed = async function(knex) {
       id: 3, 
       warehouse_id: 3,
       name: "Feathersoft Blouse",
-      variant: "",
+      variant: "grey",
       status: false,
       quantity: 0
     },
@@ -34,7 +34,7 @@ exports.seed = async function(knex) {
       id: 4, 
       warehouse_id: 4,
       name: "Long Sleeve Top",
-      variant: "",
+      variant: "light gold",
       status: true,
       quantity: 296
     },
@@ -42,7 +42,7 @@ exports.seed = async function(knex) {
       id: 5, 
       warehouse_id: 5,
       name: "High Waisted Soft Jeans",
-      variant: "",
+      variant: "black",
       status: true,
       quantity: 402
     },
@@ -50,7 +50,7 @@ exports.seed = async function(knex) {
       id: 6, 
       warehouse_id: 6,
       name: "Long Sleeve Top",
-      variant: "",
+      variant: "sage",
       status: true,
       quantity: 398
     },
@@ -58,7 +58,7 @@ exports.seed = async function(knex) {
       id: 7, 
       warehouse_id: 7,
       name: "High Waisted Soft Jeans",
-      variant: "",
+      variant: "dark",
       status: false,
       quantity: 0
     },
@@ -66,7 +66,7 @@ exports.seed = async function(knex) {
       id: 8, 
       warehouse_id: 8,
       name: "Cable Knit Sweater",
-      variant: "",
+      variant: "light blue",
       status: true,
       quantity: 411
     },
@@ -74,7 +74,7 @@ exports.seed = async function(knex) {
       id: 9, 
       warehouse_id: 9,
       name: "Wide Leg Joggers",
-      variant: "",
+      variant: "tan",
       status: true,
       quantity: 324
     },
@@ -82,7 +82,7 @@ exports.seed = async function(knex) {
       id: 10, 
       warehouse_id: 10,
       name: "Loafers",
-      variant: "",
+      variant: "black",
       status: true,
       quantity: 398
     },
@@ -90,7 +90,7 @@ exports.seed = async function(knex) {
       id: 11, 
       warehouse_id: 1,
       name: "Loafers",
-      variant: "",
+      variant: "dark brown",
       status: true,
       quantity: 375
     },
@@ -98,7 +98,7 @@ exports.seed = async function(knex) {
       id: 12, 
       warehouse_id: 2,
       name: "Oxford Shirt",
-      variant: "",
+      variant: "light blue",
       status: true,
       quantity: 327
     },
@@ -106,7 +106,7 @@ exports.seed = async function(knex) {
       id: 13, 
       warehouse_id: 3,
       name: "Crew Neck Long Top",
-      variant: "",
+      variant: "navy",
       status: true,
       quantity: 354
     },
@@ -114,7 +114,7 @@ exports.seed = async function(knex) {
       id: 14, 
       warehouse_id: 4,
       name: "Chiffon Blouse",
-      variant: "",
+      variant: "light gold",
       status: false,
       quantity: 0
     },
@@ -122,7 +122,7 @@ exports.seed = async function(knex) {
       id: 15, 
       warehouse_id: 5,
       name: "Sweatshirt",
-      variant: "",
+      variant: "sage",
       status: true,
       quantity: 345
     },
@@ -130,7 +130,7 @@ exports.seed = async function(knex) {
       id: 16, 
       warehouse_id: 9,
       name: "Sweatshirt",
-      variant: "",
+      variant: "warm white",
       status: true,
       quantity: 364
     },
@@ -138,7 +138,7 @@ exports.seed = async function(knex) {
       id: 17, 
       warehouse_id: 8,
       name: "Straight Leg Pants",
-      variant: "",
+      variant: "khaki",
       status: true,
       quantity: 264
     },
@@ -146,7 +146,7 @@ exports.seed = async function(knex) {
       id: 18, 
       warehouse_id: 7,
       name: "Mock Turtleneck Dress",
-      variant: "",
+      variant: "charcoal",
       status: true,
       quantity: 432
     },
@@ -154,7 +154,7 @@ exports.seed = async function(knex) {
       id: 19, 
       warehouse_id: 6,
       name: "Fine Knit Sweater",
-      variant: "",
+      variant: "light grey",
       status: true,
       quantity: 341
     },
@@ -162,7 +162,7 @@ exports.seed = async function(knex) {
       id: 20, 
       warehouse_id: 2,
       name: "Lightweight Cotton Shirt",
-      variant: "",
+      variant: "white",
       status: true,
       quantity: 236
     },
@@ -170,7 +170,7 @@ exports.seed = async function(knex) {
       id: 21, 
       warehouse_id: 4,
       name: "Straight Leg Pants",
-      variant: "",
+      variant: "graphite",
       status: true,
       quantity: 351
     },
@@ -178,7 +178,7 @@ exports.seed = async function(knex) {
       id: 22, 
       warehouse_id: 5,
       name: "Long Tie Belt Coat",
-      variant: "",
+      variant: "charcoal",
       status: true,
       quantity: 362
     },
@@ -186,7 +186,7 @@ exports.seed = async function(knex) {
       id: 23, 
       warehouse_id: 3,
       name: "Crochet Knit Sweater",
-      variant: "",
+      variant: "indigo",
       status: true,
       quantity: 317
     },
@@ -194,7 +194,7 @@ exports.seed = async function(knex) {
       id: 24, 
       warehouse_id: 10,
       name: "Long Puffer Jacket",
-      variant: "",
+      variant: "graphite",
       status: true,
       quantity: 274
     },
@@ -202,7 +202,7 @@ exports.seed = async function(knex) {
       id: 25, 
       warehouse_id: 8,
       name: "High Waisted Jeans",
-      variant: "",
+      variant: "medium",
       status: true,
       quantity: 399
     },
@@ -210,7 +210,7 @@ exports.seed = async function(knex) {
       id: 26, 
       warehouse_id: 7,
       name: "Cable Knit Sweater",
-      variant: "",
+      variant: "light gold",
       status: true,
       quantity: 414
     },
@@ -218,7 +218,7 @@ exports.seed = async function(knex) {
       id: 27, 
       warehouse_id: 9,
       name: "Long Sleeve Top",
-      variant: "",
+      variant: "warm white",
       status: true,
       quantity: 354
     },
@@ -226,7 +226,7 @@ exports.seed = async function(knex) {
       id: 28, 
       warehouse_id: 10,
       name: "Fine Knit Sweater",
-      variant: "",
+      variant: "brown",
       status: true,
       quantity: 231
     },
@@ -234,7 +234,7 @@ exports.seed = async function(knex) {
       id: 29, 
       warehouse_id: 1,
       name: "Long Puffer Jacket",
-      variant: "",
+      variant: "plum",
       status: true,
       quantity: 452
     },
@@ -242,7 +242,7 @@ exports.seed = async function(knex) {
       id: 30, 
       warehouse_id: 2,
       name: "Mock Turtleneck Dress",
-      variant: "",
+      variant: "olive",
       status: true,
       quantity: 276
     },
@@ -250,7 +250,7 @@ exports.seed = async function(knex) {
       id: 31, 
       warehouse_id: 3,
       name: "Sweatshirt",
-      variant: "",
+      variant: "navy",
       status: false,
       quantity: 0
     },
@@ -258,7 +258,7 @@ exports.seed = async function(knex) {
       id: 32, 
       warehouse_id: 6,
       name: "Feathersoft Blouse",
-      variant: "",
+      variant: "black",
       status: false,
       quantity: 0
     },
@@ -266,7 +266,7 @@ exports.seed = async function(knex) {
       id: 33, 
       warehouse_id: 7,
       name: "High Waisted Jeans",
-      variant: "",
+      variant: "dark",
       status: false,
       quantity: 0
     },
@@ -274,7 +274,7 @@ exports.seed = async function(knex) {
       id: 34, 
       warehouse_id: 9,
       name: "Long Tie Belt Coat",
-      variant: "",
+      variant: "black",
       status: true,
       quantity: 543
     },
@@ -282,7 +282,7 @@ exports.seed = async function(knex) {
       id: 35, 
       warehouse_id: 8,
       name: "Slacks",
-      variant: "",
+      variant: "black",
       status: true,
       quantity: 321
     },
@@ -290,7 +290,7 @@ exports.seed = async function(knex) {
       id: 36, 
       warehouse_id: 1,
       name: "Oxford Shirt",
-      variant: "",
+      variant: "white",
       status: false,
       quantity: 0
     },
@@ -298,7 +298,7 @@ exports.seed = async function(knex) {
       id: 37, 
       warehouse_id: 4,
       name: "Wide Leg Joggers",
-      variant: "",
+      variant: "black",
       status: false,
       quantity: 0
     },
@@ -306,7 +306,7 @@ exports.seed = async function(knex) {
       id: 38, 
       warehouse_id: 5,
       name: "Feathersoft Blouse",
-      variant: "",
+      variant: "warm white",
       status: true,
       quantity: 365
     },
@@ -314,15 +314,15 @@ exports.seed = async function(knex) {
       id: 39, 
       warehouse_id: 6,
       name: "Straight Leg Pants",
-      variant: "",
+      variant: "black",
       status: true,
       quantity: 213
     },
     {
       id: 40, 
       warehouse_id: 8,
-      name: "Loafers",
-      variant: "",
+      name: "Wide Leg Pants",
+      variant: "black",
       status: true,
       quantity: 340
     }
