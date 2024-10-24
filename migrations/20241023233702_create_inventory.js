@@ -22,6 +22,7 @@ exports.up = function(knex) {
       .defaultTo(knex.raw("CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"));
   })
   .createTable("inventory-ii", (table) => {
+    table.increments("id").primary();
     table.string("name").notNullable();
     table.json("variants").notNullable();
     table.string("description").notNullable();
