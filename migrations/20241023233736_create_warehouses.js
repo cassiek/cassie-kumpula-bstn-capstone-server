@@ -11,9 +11,7 @@ exports.up = function(knex) {
         table.string("country").notNullable();
         table.string("contact_name").notNullable();
         table.string("contact_position").notNullable();
-        table.integer("contact_phone")
-             .unsigned()
-             .notNullable();
+        table.string("contact_phone").notNullable();
         table.string("contact_email").notNullable();
     })
 };

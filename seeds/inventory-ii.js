@@ -8,143 +8,143 @@ exports.seed = async function(knex) {
   await knex("inventory-ii").insert([
     {
       id: 1, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Long Tie Belt Coat",
+      variants: '["charcoal", "black", "silver", "grey plaid"]',
       description: "",
-      category: ""
+      category: "Outerwear"
     },
     {
       id: 2, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Crochet Knit Sweater",
+      variants: '["gold", "burgundy", "plum", "indigo"]',
       description: "",
-      category: ""
+      category: "Sweaters"
     },
     {
       id: 3, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Long Puffer Jacket",
+      variants: '["black", "graphite", "white", "pink", "plum"]',
       description: "",
-      category: ""
+      category: "Outerwear"
     },
     {
       id: 4, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Mock Turtleneck Dress",
+      variants: '["black", "sage", "olive", "charcoal"]',
       description: "",
-      category: ""
+      category: "Dresses"
     },
     {
       id: 5, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Sweatshirt",
+      variants: '["tan", "navy", "warm white", "sage", "beige"]',
       description: "",
-      category: ""
+      category: "Sweatshirts"
     },
     {
       id: 6, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Straight Leg Pants",
+      variants: '["black", "graphite", "khaki", "grey plaid"]',
       description: "",
-      category: ""
+      category: "Pants"
     },
     {
       id: 7, 
-      name: 'rowValue1',
-      variants: "",
+      name: "High Waisted Jeans",
+      variants: '["dark", "medium", "light"]',
       description: "",
-      category: ""
+      category: "Jeans"
     },
     {
       id: 8, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Wide Leg Pants",
+      variants: '["charcoal", "black", "white"]',
       description: "",
-      category: ""
+      category: "Pants"
     },
     {
       id: 9, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Fine Knit Sweater",
+      variants: '["brown", "burgundy", "light grey"]',
       description: "",
-      category: ""
+      category: "Sweaters"
     },
     {
       id: 10, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Lightweight Cotton Shirt",
+      variants: '["white", "warm white", "silver", "light grey"]',
       description: "",
-      category: ""
+      category: "Shirts"
     },
     {
       id: 11, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Chiffon Blouse",
+      variants: '["white", "lilac", "light gold"]',
       description: "",
-      category: ""
+      category: "Blouses"
     },
     {
       id: 12, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Oxford Shirt",
+      variants: '["white", "light blue", "light grey"]',
       description: "",
-      category: ""
+      category: "Shirts"
     },
     {
       id: 13, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Feathersoft Blouse",
+      variants: '["black", "warm white", "grey"]',
       description: "",
-      category: ""
+      category: "Blouses"
     },
     {
       id: 14, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Long Sleeve Top",
+      variants: '["white", "warm white", "sage", "light gold"]',
       description: "",
-      category: ""
+      category: "Tops"
     },
     {
       id: 15, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Crew Neck Long Top",
+      variants: '["charcoal", "navy", "plum", "light blue"]',
       description: "",
-      category: ""
+      category: "Tops"
     },
     {
       id: 16, 
-      name: 'rowValue1',
-      variants: "",
+      name: "High Waisted Soft Jeans",
+      variants: '["black", "graphite", "dark", "light"]',
       description: "",
-      category: ""
+      category: "Jeans"
     },
     {
       id: 17, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Slacks",
+      variants: '["charcoal", "black", "khaki"]',
       description: "",
-      category: ""
+      category: "Pants"
     },
     {
       id: 18, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Cable Knit Sweater",
+      variants: '["charcoal", "warm white", "white", "light gold", "light blue"]',
       description: "",
-      category: ""
+      category: "Sweaters"
     },
     {
       id: 19, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Wide Leg Joggers",
+      variants: '["black", "graphite", "navy", "grey"]',
       description: "",
-      category: ""
+      category: "Pants"
     },
     {
       id: 20, 
-      name: 'rowValue1',
-      variants: "",
+      name: "Loafers",
+      variants: '["charcoal", "black", "brown"]',
       description: "",
-      category: ""
+      category: "Shoes"
     }
   ]);
 };
